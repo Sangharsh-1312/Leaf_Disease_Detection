@@ -23,24 +23,3 @@ cv2.imshow('contours', output)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
-# Face detection
-
-# import cv2
-
-# face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-
-# img = cv2.imread('face.jpg')
-# resized_img = cv2.resize(img, dsize=(300,400))
-# gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-# faces = face_cascade.detectMultiScale(gray,1.3,5,minSize=(30,30))
-
-
-# for (x,y,w,h) in faces:
-#     cv2.rectange(grey, (x,y), (x + w, y + h), (255,0,0))
-
-
-# cv2.imshow('Face_detection', gray)   
-# cv2.waitKey(0)
-# cv2.destroyAllWindows() 
-
